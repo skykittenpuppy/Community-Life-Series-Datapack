@@ -1,0 +1,1 @@
+tellraw @s {"text": "Double Life is not added yet.", "color": "red"}
