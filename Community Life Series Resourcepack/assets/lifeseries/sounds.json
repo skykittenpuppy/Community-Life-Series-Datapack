@@ -1,0 +1,22 @@
+{
+  "death": {
+    "sounds": [
+      "lifeseries:death"
+    ]
+  },
+  "boogey.suspense": {
+    "sounds": [
+      "lifeseries:boogey/suspense"
+    ]
+  },
+  "boogey.notboogey": {
+    "sounds": [
+      "lifeseries:boogey/notboogey"
+    ]
+  },
+  "boogey.boogey": {
+    "sounds": [
+      "lifeseries:boogey/boogey"
+    ]
+  }
+}

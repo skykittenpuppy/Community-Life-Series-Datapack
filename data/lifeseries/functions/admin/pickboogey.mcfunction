@@ -1,2 +1,2 @@
-execute if score dummyPlayer lastlife matches 1 run function lastlife:admin/pickboogey
-execute if score dummyPlayer limitedlife matches 1 run function limitedlife:admin/pickboogey
+execute if score lastlife constants matches 1.. if entity @r[tag=!boogeyman,scores={lives=2..}] run scoreboard players set boogeyTimer constants 6000
+execute if score limitedlife constants matches 1.. if entity @r[tag=!boogeyman,scores={ticks=577201..}] run scoreboard players set boogeyTimer constants 1200

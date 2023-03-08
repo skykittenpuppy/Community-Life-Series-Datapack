@@ -1,1 +1,0 @@
-execute as @r[scores={isBoogey=0,time=582100..}] run scoreboard players set dummyPlayer boogeyTimer 6100
