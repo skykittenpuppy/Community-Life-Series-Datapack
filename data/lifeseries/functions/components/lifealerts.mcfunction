@@ -24,7 +24,7 @@ execute if score lifeRevealTimer constants matches 2..40 as @a at @s run playsou
 execute if score lifeRevealTimer constants matches 1 as @a at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~
 
 execute if score lifeRevealTimer constants matches 1 as @a run scoreboard players operation @s lives = @s templives
-execute if score lifeRevealTimer constants matches 1 run scoreboard objectives setdisplay list lives
+execute if score lifeRevealTimer constants matches 1 run scoreboard players set @a death 0
 
 execute if score lifeRevealTimer constants matches 1.. run scoreboard players remove lifeRevealTimer constants 1
 

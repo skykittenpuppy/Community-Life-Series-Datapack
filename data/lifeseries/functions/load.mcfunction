@@ -17,9 +17,11 @@ scoreboard objectives add givelife trigger
 bossbar add livesreveal {"text":"Lives revealed in:","color": "gray"}
 bossbar set livesreveal players @a
 bossbar set livesreveal color white
+bossbar set livesreveal visible false
 bossbar add boogeyreveal {"text":"Boogeyman revealed in:","color": "red"}
 bossbar set boogeyreveal players @a
 bossbar set boogeyreveal color red
+bossbar set boogeyreveal visible false
 
 team add gray
 team modify gray color gray

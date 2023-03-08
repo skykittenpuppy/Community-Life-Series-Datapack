@@ -1,2 +1,2 @@
-scoreboard players set paused constants 0
+function lifeseries:admin/unpause
 function lifeseries:components/failboogey
