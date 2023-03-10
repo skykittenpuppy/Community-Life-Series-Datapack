@@ -8,8 +8,6 @@ scoreboard players set @a givelife 0
 
 scoreboard players set paused constants 0
 scoreboard players set @a ticks 1728000
-scoreboard objectives setdisplay list hours
-scoreboard objectives setdisplay belowName hours
 gamerule keepInventory true
 
 title @a title {"text": "Limited Life has begun", "color": "green"}

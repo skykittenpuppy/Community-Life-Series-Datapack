@@ -8,8 +8,6 @@ scoreboard players set @a givelife 0
 
 scoreboard players set paused constants 0
 scoreboard players set @a lives 3
-scoreboard objectives setdisplay list lives
-scoreboard objectives setdisplay belowName lives
 gamerule keepInventory true
 
 title @a title {"text": "3rd Life has begun", "color": "green"}
