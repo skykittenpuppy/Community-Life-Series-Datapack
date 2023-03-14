@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0": "minecraft:item/leather_horse_armor"
+	},
+    "overrides": [
+
+        {"predicate": {"custom_model_data": 1}, "model": "lifeseries:hats/wizardhat"},
+        {"predicate": {"custom_model_data": 2}, "model": "lifeseries:hats/sunglasses"},
+        {"predicate": {"custom_model_data": 3}, "model": "lifeseries:hats/santa_hat"}
+        
+    ]
+}

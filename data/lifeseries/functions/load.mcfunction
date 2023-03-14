@@ -13,6 +13,9 @@ scoreboard objectives add seconds dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add clearinv trigger
 scoreboard objectives add givelife trigger
+scoreboard objectives add tutorial trigger
+scoreboard objectives add hattype trigger
+scoreboard objectives add hatcolour trigger
 
 bossbar add livesreveal {"text":"Lives revealed in:","color": "gray"}
 bossbar set livesreveal players @a

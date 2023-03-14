@@ -1,4 +1,11 @@
 scoreboard players enable @a clearinv
+scoreboard players enable @a sethat
+scoreboard players enable @a tutorial
+scoreboard players enable @a hattype
+scoreboard players enable @a hatcolour
+
+execute as @a[scores={tutorial=1..}] run function lifeseries:components/tutorial
+execute as @a run function lifeseries:components/hats
 
 function lifeseries:components/colours
 
