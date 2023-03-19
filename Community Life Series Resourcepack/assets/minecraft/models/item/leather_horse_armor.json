@@ -5,14 +5,11 @@
 	},
     "overrides": [
         {"predicate": {"custom_model_data": 1}, "model": "lifeseries:hats/none"},
-        {"predicate": {"custom_model_data": 2}, "model": "lifeseries:hats/wizardhat"},
-        {"predicate": {"custom_model_data": 3}, "model": "lifeseries:hats/sunglasses"},
-        {"predicate": {"custom_model_data": 4}, "model": "lifeseries:hats/santa_hat"},
-        {"predicate": {"custom_model_data": 5}, "model": "lifeseries:hats/rat_ears"},
-        {"predicate": {"custom_model_data": 6}, "model": "lifeseries:hats/pigtails"},
-        {"predicate": {"custom_model_data": 7}, "model": "lifeseries:hats/tinkerer_goggles"},
-        {"predicate": {"custom_model_data": 8}, "model": "lifeseries:hats/farmer_hat"},
-        {"predicate": {"custom_model_data": 9}, "model": "lifeseries:hats/chef_hat"}
+        {"predicate": {"custom_model_data": 2}, "model": "lifeseries:hats/rat_ears"},
+        {"predicate": {"custom_model_data": 3}, "model": "lifeseries:hats/pigtails"},
+        {"predicate": {"custom_model_data": 4}, "model": "lifeseries:hats/farmer_hat"},
+        {"predicate": {"custom_model_data": 5}, "model": "lifeseries:hats/chef_hat"},
+        {"predicate": {"custom_model_data": 6}, "model": "lifeseries:hats/wizardhat"}
         
     ]
 }

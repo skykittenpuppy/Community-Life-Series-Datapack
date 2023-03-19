@@ -22,13 +22,11 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-90, 180, 180],
-			"translation": [0, -2, 0],
+			"rotation": [-180, 180, 180],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [-90, 180, 180],
-			"translation": [0, -2, 0],
+			"rotation": [-180, 180, 180],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_righthand": {
