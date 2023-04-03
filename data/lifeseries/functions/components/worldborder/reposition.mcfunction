@@ -1,3 +1,4 @@
+spreadplayers 0 0 1 100000 false @a
 execute as @r at @s run function lifeseries:components/worldborder/positionaroundplayer
 
 scoreboard players set playerCount constants 0
