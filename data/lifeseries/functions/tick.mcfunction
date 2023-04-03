@@ -27,7 +27,7 @@ execute if score paused constants matches 0 run function lifeseries:components/g
 
 execute if score paused constants matches 0 if score lastlife constants matches 1.. run function lifeseries:components/givelife
 
-execute if score paused constants matches 0 if score unpauseTimer constants matches 1.. run function lifeseries:components/unpausealerts
+execute if score unpauseTimer constants matches 1.. run function lifeseries:components/unpausealerts
 
 execute if score paused constants matches 0 if score lastlife constants matches 1.. run function lifeseries:components/lifealerts
 
