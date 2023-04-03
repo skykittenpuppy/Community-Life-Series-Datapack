@@ -1,0 +1,2 @@
+execute if score lastlife constants matches 1.. as @r[tag=!boogeyman,scores={lives=2..}] run function lifeseries:components/addboogeyalert
+execute if score limitedlife constants matches 1.. as @r[tag=!boogeyman,scores={ticks=576001..}] run function lifeseries:components/addboogeyalert

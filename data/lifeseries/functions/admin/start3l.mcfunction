@@ -8,6 +8,6 @@ scoreboard players set @a givelife 0
 
 scoreboard players set paused constants 0
 scoreboard players set @a lives 3
-gamerule keepInventory true
+gamerule keepInventory false
 
 title @a title {"text": "3rd Life has begun", "color": "green"}
