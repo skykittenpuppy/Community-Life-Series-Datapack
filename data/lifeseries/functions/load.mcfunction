@@ -15,6 +15,7 @@ scoreboard objectives add death deathCount
 scoreboard objectives add clearinv trigger
 scoreboard objectives add givelife trigger
 scoreboard objectives add tutorial trigger
+scoreboard objectives add resethat trigger
 scoreboard objectives add hattype trigger
 scoreboard objectives add hatcolour trigger
 
