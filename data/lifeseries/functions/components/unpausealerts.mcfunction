@@ -6,5 +6,6 @@ execute if score unpauseTimer constants matches 040 run title @a title {"text": 
 execute if score unpauseTimer constants matches 040 as @a at @s run playsound ui.button.click master @s ~ ~ ~
 execute if score unpauseTimer constants matches 001 run title @a title {"text": "Go.", "color": "light_purple"}
 execute if score unpauseTimer constants matches 001 as @a at @s run playsound ui.button.click master @s ~ ~ ~
+execute if score unpauseTimer constants matches 001 run scoreboard players set paused constants 0
 
 execute if score unpauseTimer constants matches 1.. run scoreboard players remove unpauseTimer constants 1
