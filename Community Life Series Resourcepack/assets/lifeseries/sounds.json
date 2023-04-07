@@ -1,20 +1,24 @@
 {
   "death": {
+	"subtitle": "§4Player dies",
     "sounds": [
       "lifeseries:death"
     ]
   },
   "boogey.suspense": {
+	"subtitle": "§eSuspenseful music plays",
     "sounds": [
       "lifeseries:boogey/suspense"
     ]
   },
   "boogey.notboogey": {
+	"subtitle": "§aRelieving jingle plays",
     "sounds": [
       "lifeseries:boogey/notboogey"
     ]
   },
   "boogey.boogey": {
+	"subtitle": "§cOminous jingle plays",
     "sounds": [
       "lifeseries:boogey/boogey"
     ]

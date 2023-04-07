@@ -1,7 +1,6 @@
 execute if score boogeyTimer constants matches 6000 run tellraw @a {"text": "The Boogeyman is being chosen in 5 minutes.", "color": "red"}
 execute if score boogeyTimer constants matches 1200 run tellraw @a {"text": "The Boogeyman is being chosen in 1 minute.", "color": "red"}
 execute if score boogeyTimer constants matches 300 run tellraw @a {"text": "The Boogeyman is about to be chosen.", "color": "red"}
-execute if score boogeyTimer constants matches 300 as @a at @s run playsound entity.lightning_bolt.thunder master @s ~ ~ ~
 execute if score boogeyTimer constants matches 220 run title @a title {"text": "3...", "color": "red"}
 execute if score boogeyTimer constants matches 220 as @a at @s run playsound ui.button.click master @s ~ ~ ~
 execute if score boogeyTimer constants matches 180 run title @a title {"text": "2...", "color": "red"}
