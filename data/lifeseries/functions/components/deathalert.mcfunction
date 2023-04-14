@@ -1,2 +1,3 @@
 execute as @a at @s run playsound lifeseries:death master @s ~ ~ ~
-tellraw @a [{"selector": "@s", "color": "red"}, {"text": " has run out of time."}]
+title @a subtitle {"text": " ran out of time."}
+title @a title {"selector": "@s", "color": "red"}

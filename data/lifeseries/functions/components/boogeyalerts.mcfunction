@@ -11,7 +11,7 @@ execute if score boogeyTimer constants matches 100 run title @a title {"text": "
 execute if score boogeyTimer constants matches 100 as @a at @s run playsound lifeseries:boogey.suspense master @s ~ ~ ~
 
 execute if score boogeyTimer constants matches 1 if score lastlife constants matches 1.. run tag @r[tag=!boogeyman,scores={lives=2..}] add boogeyman
-execute if score boogeyTimer constants matches 1 if score limitedlife constants matches 1.. run tag @r[tag=!boogeyman,scores={ticks=576001..}] add boogeyman
+execute if score boogeyTimer constants matches 1 if score limitedlife constants matches 1.. run tag @r[tag=!boogeyman] add boogeyman
 
 execute if score boogeyTimer constants matches 1 run title @a[tag=!boogeyman] title {"text": "NOT the Boogeyman", "color": "green"}
 execute if score boogeyTimer constants matches 1 run title @a[tag=boogeyman] title {"text": "The Boogeyman", "color": "red"}
