@@ -32,4 +32,5 @@ execute if score lifeRevealTimer constants matches 1.. run scoreboard players re
 execute if score lifeRevealTimer constants matches 1.. store result bossbar livesreveal value run scoreboard players get lifeRevealTimer constants
 execute if score lifeRevealTimer constants matches 1.. run bossbar set livesreveal max 6000
 execute if score lifeRevealTimer constants matches 1.. run bossbar set livesreveal visible true
+execute if score lifeRevealTimer constants matches 1.. run bossbar set livesreveal players @a
 execute if score lifeRevealTimer constants matches 0 run bossbar set livesreveal visible false

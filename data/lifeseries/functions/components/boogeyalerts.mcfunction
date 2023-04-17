@@ -26,4 +26,5 @@ execute if score boogeyTimer constants matches 1.. store result bossbar boogeyre
 execute if score boogeyTimer constants matches 1.. if score lastlife constants matches 1.. run bossbar set boogeyreveal max 6000
 execute if score boogeyTimer constants matches 1.. if score limitedlife constants matches 1.. run bossbar set boogeyreveal max 1200
 execute if score boogeyTimer constants matches 1.. run bossbar set boogeyreveal visible true
+execute if score boogeyTimer constants matches 1.. run bossbar set boogeyreveal players @a
 execute if score boogeyTimer constants matches 0 run bossbar set boogeyreveal visible false
