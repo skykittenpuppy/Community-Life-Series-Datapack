@@ -3,6 +3,7 @@ scoreboard players set 20 constants 20
 scoreboard players set 60 constants 60
 scoreboard players set 1200 constants 1200
 scoreboard players set 72000 constants 72000
+scoreboard players set boogeyChance constants 2
 scoreboard players set widthPerPlayer constants 50
 scoreboard players set randomLifeRange constants 5
 scoreboard objectives add lives dummy
@@ -11,6 +12,7 @@ scoreboard objectives add ticks dummy
 scoreboard objectives add hours dummy
 scoreboard objectives add minutes dummy
 scoreboard objectives add seconds dummy
+scoreboard objectives add boogeyRandom dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add clearinv trigger
 scoreboard objectives add givelife trigger

@@ -13,6 +13,9 @@ execute if score boogeyTimer constants matches 100 as @a at @s run playsound lif
 execute if score boogeyTimer constants matches 1 if score lastlife constants matches 1.. run tag @r[tag=!boogeyman,scores={lives=2..}] add boogeyman
 execute if score boogeyTimer constants matches 1 if score limitedlife constants matches 1.. run tag @r[tag=!boogeyman] add boogeyman
 
+execute if score boogeyTimer constants matches 1 if score lastlife constants matches 1.. as @a[tag=!boogeyman,scores={lives=2..}] run function lifeseries:components/otherboogeys
+execute if score boogeyTimer constants matches 1 if score limitedlife constants matches 1.. as @a[tag=!boogeyman] run function lifeseries:components/otherboogeys
+
 execute if score boogeyTimer constants matches 1 run title @a[tag=!boogeyman] title {"text": "NOT the Boogeyman", "color": "green"}
 execute if score boogeyTimer constants matches 1 run title @a[tag=boogeyman] title {"text": "The Boogeyman", "color": "red"}
 execute if score boogeyTimer constants matches 1 if score lastlife constants matches 1.. run tellraw @a[tag=boogeyman] [{"text":"You are the boogeyman. You must by any means necessary kill another player by direct action to be cured of the curse. If you fail, next session you will become a ","color":"gray"},{"text":"red name","color":"red"},{"text":". All loyalties and friendships are removed while you are the boogeyman."}]
