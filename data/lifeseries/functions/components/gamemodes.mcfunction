@@ -1,4 +1,5 @@
 scoreboard players set @a[team=cameo] lives 0
+gamemode survival @a[team=cameo]
 
 execute if score 3rdlife constants matches 1.. as @a run gamemode spectator @a[scores={lives=..0},team=!cameo]
 execute if score lastlife constants matches 1.. if score lifeRevealTimer constants matches ..0 as @a run gamemode spectator @a[scores={lives=..0},team=!cameo]
