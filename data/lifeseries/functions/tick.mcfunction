@@ -8,10 +8,10 @@ execute as @a run function lifeseries:components/hats
 
 function lifeseries:components/colours
 
-execute if score paused constants matches 1 if score 3rdlife constants matches 1.. as @a run function lifeseries:components/lifedisplay
-execute if score paused constants matches 1 if score lastlife constants matches 1.. if score lifeRevealTimer constants matches ..0 as @a run function lifeseries:components/lifedisplay
-execute if score paused constants matches 1 if score doublelife constants matches 1.. as @a run function lifeseries:components/lifedisplay
-execute if score paused constants matches 1 if score limitedlife constants matches 1.. as @a run function lifeseries:components/timedisplay
+execute if score paused constants matches 0 if score 3rdlife constants matches 1.. as @a run function lifeseries:components/lifedisplay
+execute if score paused constants matches 0 if score lastlife constants matches 1.. if score lifeRevealTimer constants matches ..0 as @a run function lifeseries:components/lifedisplay
+execute if score paused constants matches 0 if score doublelife constants matches 1.. as @a run function lifeseries:components/lifedisplay
+execute if score paused constants matches 0 if score limitedlife constants matches 1.. as @a run function lifeseries:components/timedisplay
 execute if score paused constants matches 1 run title @a actionbar {"text": "Paused","color": "light_purple"}
 
 execute if score paused constants matches 0 if score 3rdlife constants matches 1.. as @a run function lifeseries:components/death
