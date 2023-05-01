@@ -30,6 +30,8 @@ bossbar set boogeyreveal players @a
 bossbar set boogeyreveal color red
 bossbar set boogeyreveal visible false
 
+team add cameo
+team modify cameo color dark_purple
 team add gray
 team modify gray color gray
 team add red
