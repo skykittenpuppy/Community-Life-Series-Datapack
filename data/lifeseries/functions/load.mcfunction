@@ -21,6 +21,8 @@ scoreboard objectives add resethat trigger
 scoreboard objectives add hattype trigger
 scoreboard objectives add hatcolour trigger
 
+gamerule doLimitedCrafting true
+
 bossbar add livesreveal {"text":"Lives revealed in:","color": "gray"}
 bossbar set livesreveal players @a
 bossbar set livesreveal color white
