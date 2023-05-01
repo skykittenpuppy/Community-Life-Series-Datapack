@@ -11,5 +11,5 @@ execute if score 3rdlife constants matches 1.. run scoreboard players remove @a[
 execute if score lastlife constants matches 1.. run scoreboard players remove @a[scores={death=1..}] lives 1
 execute if score doublelife constants matches 1.. run scoreboard players remove @a[scores={death=1..}] lives 1
 execute if score limitedlife constants matches 1.. run scoreboard players remove @a[scores={death=1..}] ticks 72000
-execute as @a[scores={death=1..},team=!cameo] as @a at @a run playsound lifeseries:death master @s ~ ~ ~
+execute as @a[team=!cameo,scores={death=1..}] as @a at @a run playsound lifeseries:death master @s ~ ~ ~
 scoreboard players set @a[scores={death=1..}] death 0
