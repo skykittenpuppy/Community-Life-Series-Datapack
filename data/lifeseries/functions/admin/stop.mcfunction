@@ -6,3 +6,4 @@ scoreboard players set 3rdlife constants 0
 scoreboard players set lastlife constants 0
 scoreboard players set doublelife constants 0
 scoreboard players set limitedlife constants 0
+team leave @a
