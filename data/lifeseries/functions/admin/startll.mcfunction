@@ -8,7 +8,7 @@ scoreboard players set @a givelife 0
 
 scoreboard players set paused constants 0
 scoreboard players set lifeRevealTimer constants 6000
-scoreboard players set @a lives 0
+scoreboard players set @a lives 3
 gamerule keepInventory false
 recipe take @a enchanting_table
 execute at @r run setblock ~ ~ ~ enchanting_table
