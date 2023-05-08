@@ -1,12 +1,15 @@
 scoreboard objectives add constants dummy
-scoreboard players set 10 constants 10
-scoreboard players set 20 constants 20
-scoreboard players set 60 constants 60
-scoreboard players set 1200 constants 1200
 scoreboard players set 72000 constants 72000
-scoreboard players set boogeyChance constants 7
-scoreboard players set widthPerPlayer constants 50
-scoreboard players set randomLifeRange constants 5
+scoreboard players set 1200 constants 1200
+scoreboard players set 60 constants 60
+scoreboard players set 20 constants 20
+scoreboard players set 10 constants 10
+
+execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set boogeyChance constants 7
+execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set widthPerPlayer constants 50
+execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set randomLifeRange constants 5
+
+scoreboard players set firstLoadConstants constants 1
 scoreboard objectives add lives dummy
 scoreboard objectives add templives dummy
 scoreboard objectives add ticks dummy
