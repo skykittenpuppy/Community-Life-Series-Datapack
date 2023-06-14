@@ -5,11 +5,13 @@ scoreboard players set 60 constants 60
 scoreboard players set 20 constants 20
 scoreboard players set 10 constants 10
 
-execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set boogeyChance constants 7
-execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set widthPerPlayer constants 50
-execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set randomLifeRange constants 5
+execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set boogeyChance configs 12
+execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set widthPerPlayer configs 50
+execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set randomLifeRange configs 5
+execute unless score firstLoadConstants constants = firstLoadConstants constants run scoreboard players set clearinv configs 1
 
 scoreboard players set firstLoadConstants constants 1
+scoreboard players set gamemode constants 0
 scoreboard objectives add lives dummy
 scoreboard objectives add templives dummy
 scoreboard objectives add ticks dummy
@@ -18,20 +20,13 @@ scoreboard objectives add minutes dummy
 scoreboard objectives add seconds dummy
 scoreboard objectives add boogeyRandom dummy
 scoreboard objectives add death deathCount
-scoreboard objectives add clearinv trigger
 scoreboard objectives add givelife trigger
-scoreboard objectives add tutorial trigger
-scoreboard objectives add resethat trigger
-scoreboard objectives add hattype trigger
-scoreboard objectives add hatcolour trigger
-
-gamerule doLimitedCrafting true
 
 bossbar add livesreveal {"text":"Lives revealed in:","color": "gray"}
 bossbar set livesreveal players @a
 bossbar set livesreveal color white
 bossbar set livesreveal visible false
-bossbar add boogeyreveal {"text":"Boogeyman revealed in:","color": "red"}
+bossbar add boogeyreveal {"text":"Boogeyman revealed in:","color": "light_purple"}
 bossbar set boogeyreveal players @a
 bossbar set boogeyreveal color red
 bossbar set boogeyreveal visible false

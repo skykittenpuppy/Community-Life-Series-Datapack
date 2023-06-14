@@ -11,7 +11,7 @@ execute if score lifeRevealTimer constants matches 140 run title @a title {"text
 execute if score lifeRevealTimer constants matches 140 as @a at @s run playsound lifeseries:boogey.suspense master @s ~ ~ ~
 
 execute if score lifeRevealTimer constants matches 1..40 as @a store result score @s templives run data get entity @e[sort=random, limit=1] UUID[0] 0.25
-execute if score lifeRevealTimer constants matches 1..40 run scoreboard players operation @a templives %= randomLifeRange constants
+execute if score lifeRevealTimer constants matches 1..40 run scoreboard players operation @a templives %= randomLifeRange configs
 execute if score lifeRevealTimer constants matches 1..40 run scoreboard players add @a templives 2
 
 execute if score lifeRevealTimer constants matches 40 run title @a times 0 70 30
@@ -33,4 +33,4 @@ execute if score lifeRevealTimer constants matches 1.. store result bossbar live
 execute if score lifeRevealTimer constants matches 1.. run bossbar set livesreveal max 6000
 execute if score lifeRevealTimer constants matches 1.. run bossbar set livesreveal visible true
 execute if score lifeRevealTimer constants matches 1.. run bossbar set livesreveal players @a
-execute if score lifeRevealTimer constants matches 0 run bossbar set livesreveal visible false
+execute if score lifeRevealTimer constants matches 1 run bossbar set livesreveal visible false

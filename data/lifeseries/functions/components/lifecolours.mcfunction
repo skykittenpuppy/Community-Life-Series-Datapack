@@ -1,0 +1,5 @@
+team join gray @a[team=!cameo,team=!gray,scores={lives=..0}]
+team join red @a[team=!red,scores={lives=1}]
+team join yellow @a[team=!yellow,scores={lives=2}]
+team join green @a[team=!green,scores={lives=3}]
+team join dark_green @a[team=!dark_green,scores={lives=4..}]

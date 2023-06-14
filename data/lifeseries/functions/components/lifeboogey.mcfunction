@@ -1,0 +1,2 @@
+execute as @s[scores={lives=1..}] on attacker if entity @s[tag=boogeyman] run tellraw @a [{"selector":"@s"},{"text":" was cured.", "color":"green"}]
+execute as @s[scores={lives=1..}] on attacker if entity @s[tag=boogeyman] run tag @s remove boogeyman
