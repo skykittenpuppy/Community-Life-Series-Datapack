@@ -14,7 +14,6 @@ execute if score boogeyTimer constants matches 1 if score gamemode constants mat
 execute if score boogeyTimer constants matches 1 if score gamemode constants matches 4 run tag @r[tag=!boogeyman] add boogeyman
 
 execute if score boogeyTimer constants matches 1 if score gamemode constants matches 2 as @a[tag=!boogeyman,scores={lives=2..}] run function lifeseries:components/otherboogeys
-execute if score boogeyTimer constants matches 1 if score gamemode constants matches 4 as @a[tag=!boogeyman] run function lifeseries:components/otherboogeys
 
 execute if score boogeyTimer constants matches 1 run title @a[tag=!boogeyman] title {"text": "NOT the Boogeyman", "color": "green"}
 execute if score boogeyTimer constants matches 1 run title @a[tag=boogeyman] title {"text": "The Boogeyman", "color": "red"}
