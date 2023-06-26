@@ -4,3 +4,4 @@ execute if score gamemode constants matches 4 run title @a title {"text": "Limit
 scoreboard players set gamemode constants 0
 team join green @a
 gamemode adventure @a
+execute positioned over motion_blocking_no_leaves run tp @a 0 ~ 0
