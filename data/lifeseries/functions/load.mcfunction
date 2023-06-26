@@ -9,6 +9,7 @@ execute unless score gamemode constants = gamemode constants run scoreboard play
 scoreboard objectives add configs dummy
 execute unless score boogeyChance configs = boogeyChance configs run scoreboard players set boogeyChance configs 12
 execute unless score widthPerPlayer configs = widthPerPlayer configs run scoreboard players set widthPerPlayer configs 50
+execute unless score randomLifeMin configs = randomLifeMin configs run scoreboard players set randomLifeMin configs 2
 execute unless score randomLifeRange configs = randomLifeRange configs run scoreboard players set randomLifeRange configs 5
 execute unless score clearinv configs = clearinv configs run scoreboard players set clearinv configs 1
 
