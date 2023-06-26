@@ -4,6 +4,7 @@ scoreboard players set 1200 constants 1200
 scoreboard players set 60 constants 60
 scoreboard players set 20 constants 20
 scoreboard players set 10 constants 10
+execute unless score gamemode constants = gamemode constants run scoreboard players set gamemode constants 0
 
 scoreboard objectives add configs dummy
 execute unless score boogeyChance configs = boogeyChance configs run scoreboard players set boogeyChance configs 12
@@ -11,7 +12,6 @@ execute unless score widthPerPlayer configs = widthPerPlayer configs run scorebo
 execute unless score randomLifeRange configs = randomLifeRange configs run scoreboard players set randomLifeRange configs 5
 execute unless score clearinv configs = clearinv configs run scoreboard players set clearinv configs 1
 
-scoreboard players set gamemode constants 0
 scoreboard objectives add lives dummy
 scoreboard objectives add templives dummy
 scoreboard objectives add ticks dummy
