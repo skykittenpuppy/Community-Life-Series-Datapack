@@ -5,6 +5,6 @@ scoreboard players set gamemode constants 0
 clear @a
 worldborder set 16
 team join green @a
-gamemode adventure @a
+gamemode spectator @a
 effect give @a weakness infinite 255 true
 execute at @r positioned over motion_blocking_no_leaves run tp @a 0 ~ 0
