@@ -18,7 +18,7 @@ execute if score lifeRevealTimer constants matches 40 run title @a times 0 70 30
 execute if score lifeRevealTimer constants matches 1 run title @a times 10 70 20
 execute if score lifeRevealTimer constants matches 1..40 as @a[scores={templives=2}] run title @s title {"text": "2 Lives", "color": "yellow"}
 execute if score lifeRevealTimer constants matches 1..40 as @a[scores={templives=3}] run title @s title {"text": "3 Lives", "color": "green"}
-execute if score lifeRevealTimer constants matches 1..40 as @a[scores={templives=4..}] run title @s title [{"score": {"name": "@s", "objective": "lives"}, "color": "dark_green"},{"text": " Lives", "color": "dark_green"}]
+execute if score lifeRevealTimer constants matches 1..40 as @a[scores={templives=4..}] run title @s title [{"score": {"name": "@s", "objective": "templives"}, "color": "dark_green"},{"text": " Lives", "color": "dark_green"}]
 execute if score lifeRevealTimer constants matches 2..40 as @a at @s run playsound ui.button.click master @s ~ ~ ~
 execute if score lifeRevealTimer constants matches 1 as @a at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~
 
