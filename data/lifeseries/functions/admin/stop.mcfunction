@@ -3,6 +3,8 @@ execute if score gamemode constants matches 2 run title @a title {"text": "Last 
 execute if score gamemode constants matches 4 run title @a title {"text": "Limited Life has ended", "color": "red"}
 scoreboard players set gamemode constants 0
 clear @a
+worldborder set 16
 team join green @a
 gamemode adventure @a
+effect give @a weakness infinite 255 true
 execute at @r positioned over motion_blocking_no_leaves run tp @a 0 ~ 0
