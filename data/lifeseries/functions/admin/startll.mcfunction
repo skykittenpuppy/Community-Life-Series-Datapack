@@ -12,6 +12,6 @@ scoreboard players set @a lives 3
 gamerule doLimitedCrafting true
 gamerule keepInventory false
 recipe take @a enchanting_table
-execute at @r run setblock ~ ~ ~ enchanting_table
+execute at @r positioned over motion_blocking_no_leaves run setblock 0 ~ 0 enchanting_table
 
 title @a title {"text": "Last Life has begun", "color": "green"}
