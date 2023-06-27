@@ -1,0 +1,1 @@
+function lifeseries:components/detectdamage

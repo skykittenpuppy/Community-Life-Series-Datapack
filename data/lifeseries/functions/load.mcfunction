@@ -20,6 +20,12 @@ scoreboard objectives add hours dummy
 scoreboard objectives add minutes dummy
 scoreboard objectives add seconds dummy
 scoreboard objectives add boogeyRandom dummy
+scoreboard objectives add health dummy
+scoreboard objectives add healthDif dummy
+scoreboard objectives add healthPrev dummy
+scoreboard objectives add healthShared dummy
+scoreboard objectives add healthDifShared dummy
+scoreboard players set group1 healthShared 20
 scoreboard objectives add death deathCount
 scoreboard objectives add givelife trigger
 
