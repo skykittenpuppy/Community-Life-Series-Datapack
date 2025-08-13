@@ -1,6 +1,40 @@
 {
-    "pack": {
-        "pack_format": 12,
-        "description": "§7Life Series Datapack Remake §8§lBy Hannah §r§8(§9§obeegirl.gay§r§8)"
-    }
+	"pack": {
+		"pack_format": 64,
+		"min_format": [16],
+		"max_format": [999],
+		"supported_formats": [16,999],
+		"description": [
+			{
+				"text": "Community LIFE Series",
+				"color": "green",
+				"italic": false,
+				"bold": true
+			},
+			{
+				"text": "\nskykittenpuppy ",
+				"color": "#9c72ea",
+				"italic": false,
+				"bold": false
+			},
+			{
+				"text": "(",
+				"color": "gray",
+				"italic": false,
+				"bold": false
+			},
+			{
+				"text": "beegirl.gay",
+				"color": "#0000EE",
+				"italic": true,
+				"bold": false
+			},
+			{
+				"text": ")",
+				"color": "gray",
+				"italic": false,
+				"bold": false
+			}
+		]
+	}
 }
